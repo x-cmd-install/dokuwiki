@@ -1,0 +1,61 @@
+about:
+  description: The DokuWiki Open Source Wiki Engine
+  license: GPL-2.0
+  homepage: http://www.dokuwiki.org
+  head: 6542233
+  archived: false
+  latestVersion: release-2026-07-14c
+  collectedAt: 2026-09-04T04:45:01Z
+timeline:
+  created: 2010-01-03
+  lastCommit: 2026-09-02
+  lastRelease: 2026-09-02
+popularity:
+  star: 4707
+  watcher: 176
+  fork: 921
+  release: 12
+  contributor: 600
+  pullRequest: 766
+  issue: 1787
+language:
+  PHP: 8141759
+  JavaScript: 191811
+  HTML: 85685
+  CSS: 85200
+  Less: 52196
+  Shell: 1926
+totalLine: 8558577
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 2
+    mergedPR: 6
+    openPR: 7
+    closedIssue: 2
+    openIssue: 10
+    commit: 20
+  last90d:
+    since: 2026-06-06
+    release: 4
+    mergedPR: 40
+    openPR: 7
+    closedIssue: 22
+    openIssue: 16
+    commit: 153
+  last180d:
+    since: 2026-03-08
+    release: 4
+    mergedPR: 79
+    openPR: 8
+    closedIssue: 34
+    openIssue: 17
+    commit: 369
+  last360d:
+    since: 2025-09-09
+    release: 5
+    mergedPR: 121
+    openPR: 10
+    closedIssue: 56
+    openIssue: 23
+    commit: 494
