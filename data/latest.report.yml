@@ -5,7 +5,7 @@ about:
   head: 48e53da
   archived: false
   latestVersion: "release-2026-07-14c"
-  collectedAt: 2026-09-08T02:49:18Z
+  collectedAt: 2026-09-08T05:42:01Z
 timeline:
   created: 2010-01-03
   lastCommit: 2026-09-06
@@ -84,7 +84,7 @@ total:
   commit: 13396
 ---
 path: /home/runner/.x-repo/github.com/dokuwiki/dokuwiki
-collectedAt: 2026-09-08T02:49:25Z
+collectedAt: 2026-09-08T05:42:11Z
 loc:
   Php:
     code: 260538
