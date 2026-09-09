@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4168561,
       "digest": "sha256:7e9b4dcb5ecb91a57f71b9b77dcec7bcf929959881464796611349ed1d183176",
-      "download_count": 51,
+      "download_count": 55,
       "created_at": "2026-09-02T18:53:36Z",
       "updated_at": "2026-09-02T18:53:36Z",
       "browser_download_url": "https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.tgz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 6433732,
       "digest": "sha256:337a61cb217092b7339cba09cb7112c41a709c68c3230e7938cfc658c0de51a4",
-      "download_count": 29,
+      "download_count": 30,
       "created_at": "2026-09-02T18:53:36Z",
       "updated_at": "2026-09-02T18:53:36Z",
       "browser_download_url": "https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.zip"
@@ -111,5 +111,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/dokuwiki/dokuwiki/tarball/release-2026-07-14c",
   "zipball_url": "https://api.github.com/repos/dokuwiki/dokuwiki/zipball/release-2026-07-14c",
-  "body": null
+  "body": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/dokuwiki/dokuwiki/releases/381499452/reactions",
+    "total_count": 3,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 1,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 1,
+    "eyes": 0
+  }
 }
