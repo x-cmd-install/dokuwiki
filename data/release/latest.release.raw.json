@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4168561,
       "digest": "sha256:7e9b4dcb5ecb91a57f71b9b77dcec7bcf929959881464796611349ed1d183176",
-      "download_count": 60,
+      "download_count": 61,
       "created_at": "2026-09-02T18:53:36Z",
       "updated_at": "2026-09-02T18:53:36Z",
       "browser_download_url": "https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.tgz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 6433732,
       "digest": "sha256:337a61cb217092b7339cba09cb7112c41a709c68c3230e7938cfc658c0de51a4",
-      "download_count": 32,
+      "download_count": 33,
       "created_at": "2026-09-02T18:53:36Z",
       "updated_at": "2026-09-02T18:53:36Z",
       "browser_download_url": "https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.zip"

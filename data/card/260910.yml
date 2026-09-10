@@ -7,7 +7,7 @@ about:
   latestVersion: "release-2026-07-14c"
   latestRelease: "release-2026-07-14c"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T06:10:01Z
+  collectedAt: 2026-09-10T20:19:48Z
 timeline:
   created: 2010-01-03
   lastCommit: 2026-09-06
@@ -36,59 +36,59 @@ recent:
     release: 2
     mergedPR: 5
     openPR: 12
-    closedIssue: 4
-    openIssue: 8
+    closedIssue: 5
+    openIssue: 7
     commit: 20
   last60d:
     since: 2026-07-12
     release: 4
     mergedPR: 19
     openPR: 13
-    closedIssue: 24
-    openIssue: 16
+    closedIssue: 25
+    openIssue: 15
     commit: 57
   last90d:
     since: 2026-06-12
     release: 4
     mergedPR: 39
     openPR: 13
-    closedIssue: 26
-    openIssue: 17
+    closedIssue: 27
+    openIssue: 16
     commit: 151
   last180d:
     since: 2026-03-14
     release: 4
     mergedPR: 80
     openPR: 14
-    closedIssue: 38
-    openIssue: 18
+    closedIssue: 39
+    openIssue: 17
     commit: 372
   last360d:
     since: 2025-09-15
     release: 4
     mergedPR: 118
     openPR: 16
-    closedIssue: 60
-    openIssue: 24
+    closedIssue: 61
+    openIssue: 23
     commit: 489
   last720d:
     since: 2024-09-20
     release: 7
     mergedPR: 204
     openPR: 24
-    closedIssue: 124
-    openIssue: 40
+    closedIssue: 125
+    openIssue: 39
     commit: 787
 total:
   release: 12
   mergedPR: 2181
   openPR: 87
-  closedIssue: 1403
-  openIssue: 389
+  closedIssue: 1404
+  openIssue: 388
   commit: 13396
 ---
 path: /home/runner/.x-repo/github.com/dokuwiki/dokuwiki
-collectedAt: 2026-09-10T06:10:12Z
+collectedAt: 2026-09-10T20:19:55Z
 loc:
   Php:
     code: 260538
