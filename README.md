@@ -38,22 +38,22 @@ Total: **275,523** lines of code across **2505** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,716 · **Forks**: 921 · **Open issues**: 1,793 · **Contributors**: 601
+- **Stars**: 4,717 · **Forks**: 921 · **Open issues**: 1,794 · **Contributors**: 601
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2181 · **Open PRs**: 90 · **Closed issues**: 1404 · **Open issues**: 389 · **Commits**: 13396
+- **Releases**: 12 · **Merged PRs**: 2181 · **Open PRs**: 91 · **Closed issues**: 1404 · **Open issues**: 390 · **Commits**: 13396
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 5 | 14 | 5 | 6 | 12 |
-| last60d | 2026-07-15 | 3 | 18 | 16 | 25 | 15 | 43 |
-| 90d | 2026-06-15 | 4 | 38 | 16 | 27 | 17 | 144 |
-| last180d | 2026-03-17 | 4 | 80 | 17 | 39 | 18 | 358 |
-| 360d | 2025-09-18 | 4 | 115 | 19 | 61 | 24 | 475 |
-| last720d | 2024-09-23 | 7 | 204 | 27 | 125 | 40 | 787 |
+| 30d | 2026-08-15 | 1 | 5 | 15 | 5 | 7 | 12 |
+| last60d | 2026-07-16 | 3 | 18 | 17 | 23 | 16 | 43 |
+| 90d | 2026-06-16 | 4 | 37 | 17 | 27 | 18 | 144 |
+| last180d | 2026-03-18 | 4 | 79 | 18 | 39 | 19 | 358 |
+| 360d | 2025-09-19 | 4 | 115 | 20 | 61 | 25 | 475 |
+| last720d | 2024-09-24 | 7 | 204 | 28 | 125 | 41 | 787 |
 
 ## Release assets
 
@@ -61,21 +61,6 @@ Total: **275,523** lines of code across **2505** files in the top 5 languages.
 |-------|-----:|--------|
 | [dokuwiki-2026-07-14c.tgz](https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.tgz) | 4.0 MiB | `native/unknown` |
 | [dokuwiki-2026-07-14c.zip](https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.zip) | 6.1 MiB | `other` |
-
-## Distribution status
-
-Reported by **72** distros on [repology.org](https://repology.org/project/dokuwiki). **2** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2026-07-14.a` | ⚠️ outdated |
-| Debian 14 | `2026-07-14.a` | ⚠️ outdated |
-| Debian 13 | `2024-02-06b` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2025-05-14.b` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.0.20220731.a` | ⚠️ outdated |
-| Arch | `20260714` | incorrect |
-| Fedora rawhide | `20260714c` | incorrect |
-| Nix unstable | `2026-07-14c` | ✅ latest |
 
 ## Improve this data
 
@@ -86,4 +71,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:54:37Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:22:18Z._

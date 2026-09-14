@@ -38,22 +38,22 @@ x install dokuwiki
 
 ## 流行度
 
-- **Star**: 4,716 · **Fork**: 921 · **开放 issue**: 1,793 · **贡献者**: 601
+- **Star**: 4,717 · **Fork**: 921 · **开放 issue**: 1,794 · **贡献者**: 601
 
 ## 累计统计
 
-- **发布数**: 12 · **已合并 PR**: 2181 · **开放 PR**: 90 · **已关闭 issue**: 1404 · **开放 issue**: 389 · **提交数**: 13396
+- **发布数**: 12 · **已合并 PR**: 2181 · **开放 PR**: 91 · **已关闭 issue**: 1404 · **开放 issue**: 390 · **提交数**: 13396
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 5 | 14 | 5 | 6 | 12 |
-| last60d | 2026-07-15 | 3 | 18 | 16 | 25 | 15 | 43 |
-| 90d | 2026-06-15 | 4 | 38 | 16 | 27 | 17 | 144 |
-| last180d | 2026-03-17 | 4 | 80 | 17 | 39 | 18 | 358 |
-| 360d | 2025-09-18 | 4 | 115 | 19 | 61 | 24 | 475 |
-| last720d | 2024-09-23 | 7 | 204 | 27 | 125 | 40 | 787 |
+| 30d | 2026-08-15 | 1 | 5 | 15 | 5 | 7 | 12 |
+| last60d | 2026-07-16 | 3 | 18 | 17 | 23 | 16 | 43 |
+| 90d | 2026-06-16 | 4 | 37 | 17 | 27 | 18 | 144 |
+| last180d | 2026-03-18 | 4 | 79 | 18 | 39 | 19 | 358 |
+| 360d | 2025-09-19 | 4 | 115 | 20 | 61 | 25 | 475 |
+| last720d | 2024-09-24 | 7 | 204 | 28 | 125 | 41 | 787 |
 
 ## Release 资产
 
@@ -61,21 +61,6 @@ x install dokuwiki
 |------|-----:|----------|
 | [dokuwiki-2026-07-14c.tgz](https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.tgz) | 4.0 MiB | `native/unknown` |
 | [dokuwiki-2026-07-14c.zip](https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.zip) | 6.1 MiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/dokuwiki) 上共有 **72** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**39** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2026-07-14.a` | ⚠️ outdated |
-| Debian 14 | `2026-07-14.a` | ⚠️ outdated |
-| Debian 13 | `2024-02-06b` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2025-05-14.b` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.0.20220731.a` | ⚠️ outdated |
-| Arch | `20260714` | incorrect |
-| Fedora rawhide | `20260714c` | incorrect |
-| Nix unstable | `2026-07-14c` | ✅ latest |
 
 ## 改进这些数据
 
@@ -86,4 +71,4 @@ dokuwiki 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:54:37Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:22:20Z._
