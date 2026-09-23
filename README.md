@@ -4,7 +4,7 @@
 
 The DokuWiki Open Source Wiki Engine
 
-[![x-cmd/install — dokuwiki Code Quality Monitoring Repo Card](https://repo.x-cmd.io/dokuwiki.svg)](https://x-cmd.com/install/dokuwiki)
+[![x-cmd/install — dokuwiki Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/dokuwiki.svg)](https://x-cmd.com/install/dokuwiki)
 
 ## Install
 
@@ -42,18 +42,18 @@ Total: **275,535** lines of code across **2505** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2182 · **Open PRs**: 91 · **Closed issues**: 1404 · **Open issues**: 393 · **Commits**: 13398
+- **Releases**: 12 · **Merged PRs**: 2182 · **Open PRs**: 93 · **Closed issues**: 1404 · **Open issues**: 393 · **Commits**: 13398
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 2 | 11 | 5 | 9 | 6 |
-| last60d | 2026-07-24 | 2 | 12 | 17 | 12 | 17 | 36 |
-| 90d | 2026-06-24 | 4 | 36 | 17 | 26 | 21 | 116 |
-| last180d | 2026-03-26 | 4 | 74 | 18 | 38 | 21 | 359 |
-| 360d | 2025-09-27 | 4 | 111 | 20 | 57 | 28 | 474 |
-| last720d | 2024-10-02 | 7 | 205 | 28 | 125 | 44 | 789 |
+| 30d | 2026-08-24 | 1 | 2 | 13 | 5 | 9 | 6 |
+| last60d | 2026-07-25 | 2 | 11 | 19 | 11 | 17 | 36 |
+| 90d | 2026-06-25 | 4 | 28 | 19 | 26 | 20 | 116 |
+| last180d | 2026-03-27 | 4 | 74 | 20 | 38 | 21 | 359 |
+| 360d | 2025-09-28 | 4 | 110 | 22 | 57 | 28 | 474 |
+| last720d | 2024-10-03 | 7 | 204 | 30 | 124 | 44 | 789 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:05:08Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:17:27Z._
