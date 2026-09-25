@@ -38,22 +38,22 @@ Total: **275,535** lines of code across **2505** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,721 · **Forks**: 921 · **Open issues**: 1,797 · **Contributors**: 601
+- **Stars**: 4,722 · **Forks**: 921 · **Open issues**: 1,797 · **Contributors**: 601
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2182 · **Open PRs**: 94 · **Closed issues**: 1404 · **Open issues**: 393 · **Commits**: 13398
+- **Releases**: 12 · **Merged PRs**: 2182 · **Open PRs**: 95 · **Closed issues**: 1404 · **Open issues**: 393 · **Commits**: 13398
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 1 | 2 | 14 | 5 | 8 | 6 |
-| last60d | 2026-07-26 | 2 | 11 | 20 | 11 | 17 | 36 |
-| 90d | 2026-06-26 | 4 | 26 | 20 | 26 | 20 | 116 |
-| last180d | 2026-03-28 | 4 | 74 | 21 | 38 | 21 | 359 |
-| 360d | 2025-09-29 | 4 | 110 | 23 | 57 | 28 | 474 |
-| last720d | 2024-10-04 | 7 | 203 | 31 | 124 | 44 | 788 |
+| 30d | 2026-08-26 | 1 | 2 | 15 | 5 | 8 | 6 |
+| last60d | 2026-07-27 | 2 | 11 | 21 | 11 | 16 | 36 |
+| 90d | 2026-06-27 | 4 | 26 | 21 | 26 | 20 | 116 |
+| last180d | 2026-03-29 | 4 | 74 | 22 | 38 | 21 | 359 |
+| 360d | 2025-09-30 | 4 | 110 | 24 | 57 | 28 | 474 |
+| last720d | 2024-10-05 | 7 | 203 | 32 | 124 | 44 | 786 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T05:37:19Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T05:50:38Z._
