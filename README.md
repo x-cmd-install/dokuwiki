@@ -14,7 +14,7 @@ x install dokuwiki
 
 ## Code insight
 
-Total: **275,535** lines of code across **2505** files in the top 5 languages.
+Total: **275,537** lines of code across **2505** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -33,27 +33,27 @@ Total: **275,535** lines of code across **2505** files in the top 5 languages.
 ## Release
 
 - **Latest**: `release-2026-07-14c` (2026-09-02)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-26
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 4,722 · **Forks**: 921 · **Open issues**: 1,797 · **Contributors**: 601
+- **Stars**: 4,723 · **Forks**: 921 · **Open issues**: 1,797 · **Contributors**: 600
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2182 · **Open PRs**: 95 · **Closed issues**: 1404 · **Open issues**: 393 · **Commits**: 13398
+- **Releases**: 12 · **Merged PRs**: 2183 · **Open PRs**: 95 · **Closed issues**: 1405 · **Open issues**: 392 · **Commits**: 13400
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 1 | 2 | 15 | 5 | 8 | 6 |
-| last60d | 2026-07-28 | 2 | 11 | 21 | 10 | 16 | 36 |
-| 90d | 2026-06-28 | 4 | 25 | 21 | 26 | 20 | 116 |
-| last180d | 2026-03-30 | 4 | 74 | 22 | 38 | 21 | 359 |
-| 360d | 2025-10-01 | 4 | 110 | 24 | 56 | 28 | 474 |
-| last720d | 2024-10-06 | 7 | 203 | 32 | 123 | 44 | 786 |
+| 30d | 2026-08-28 | 1 | 2 | 16 | 5 | 8 | 6 |
+| last60d | 2026-07-29 | 2 | 12 | 21 | 9 | 15 | 27 |
+| 90d | 2026-06-29 | 4 | 25 | 21 | 26 | 20 | 97 |
+| last180d | 2026-03-31 | 4 | 75 | 22 | 37 | 21 | 352 |
+| 360d | 2025-10-02 | 4 | 111 | 24 | 56 | 28 | 471 |
+| last720d | 2024-10-07 | 7 | 204 | 32 | 123 | 44 | 788 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:51:09Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T06:16:36Z._
