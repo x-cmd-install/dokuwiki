@@ -9,6 +9,30 @@
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
     - GPL
+- repo: nix_stable_24_11
+  srcname: dokuwiki
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: null
+  status: outdated
+  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
+  maintainers:
+    - b1000101@pm.me
+    - nixpkgs@e1mo.de
+  licenses:
+    - GPL-2.0-only
+- repo: nix_stable_25_05
+  srcname: dokuwiki
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: null
+  status: outdated
+  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
+  maintainers:
+    - b1000101@pm.me
+    - nixpkgs@e1mo.de
+  licenses:
+    - GPL-2.0-only
 - repo: aur
   srcname: dokuwiki-git
   binname: dokuwiki-git
@@ -154,21 +178,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-selinux
-  visiblename: dokuwiki
-  version: 20250514b
-  origversion: 20250514b-1.fc43
-  status: incorrect
-  summary: Standards compliant simple to use wiki
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: dokuwiki
   binnames:
@@ -177,6 +186,21 @@
   visiblename: dokuwiki
   version: 20250514b
   origversion: 20250514b-7.fc43
+  status: incorrect
+  summary: Standards compliant simple to use wiki
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-selinux
+  visiblename: dokuwiki
+  version: 20250514b
+  origversion: 20250514b-1.fc43
   status: incorrect
   summary: Standards compliant simple to use wiki
   licenses:
@@ -455,30 +479,6 @@
     - nixpkgs@e1mo.de
   licenses:
     - GPL-2.0
-- repo: nix_stable_24_11
-  srcname: dokuwiki
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: null
-  status: outdated
-  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
-  maintainers:
-    - b1000101@pm.me
-    - nixpkgs@e1mo.de
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_25_05
-  srcname: dokuwiki
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: null
-  status: outdated
-  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
-  maintainers:
-    - b1000101@pm.me
-    - nixpkgs@e1mo.de
-  licenses:
-    - GPL-2.0-only
 - repo: nix_stable_26_05
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -508,11 +508,11 @@
   binname: dokuwiki
   visiblename: www/dokuwiki
   version: 2024.02.06
-  origversion: 2024.02.06p1
+  origversion: 2024.02.06p2
   status: outdated
   summary: standards compliant, simple to use Wiki
   maintainers:
-    - pea@openbsd.org
+    - ports@openbsd.org
   categories:
     - www
 - repo: parabola
@@ -527,7 +527,7 @@
   licenses:
     - GPL
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -542,7 +542,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
