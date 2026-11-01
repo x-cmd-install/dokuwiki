@@ -48,12 +48,12 @@ Total: **275,567** lines of code across **2506** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 12 | 0 | 5 | 0 |
-| last60d | 2026-09-01 | 1 | 7 | 18 | 7 | 11 | 10 |
-| 90d | 2026-08-02 | 2 | 14 | 24 | 10 | 18 | 30 |
-| last180d | 2026-05-04 | 4 | 64 | 25 | 34 | 24 | 241 |
-| 360d | 2025-11-05 | 4 | 110 | 26 | 52 | 30 | 458 |
-| last720d | 2024-11-10 | 7 | 204 | 30 | 121 | 40 | 770 |
+| 30d | 2026-10-02 | 0 | 0 | 12 | 0 | 5 | 0 |
+| last60d | 2026-09-02 | 1 | 7 | 18 | 6 | 11 | 6 |
+| 90d | 2026-08-03 | 2 | 14 | 24 | 10 | 18 | 30 |
+| last180d | 2026-05-05 | 4 | 64 | 25 | 34 | 24 | 214 |
+| 360d | 2025-11-06 | 4 | 110 | 26 | 52 | 30 | 457 |
+| last720d | 2024-11-11 | 7 | 203 | 30 | 121 | 40 | 770 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:37:11Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:11:14Z._
