@@ -1,3 +1,17 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2026-07-14.c
+  origversion: 2026-07-14.c+dfsg-3
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - web
 - repo: arch
   subrepo: extra
   srcname: dokuwiki
@@ -9,30 +23,6 @@
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
     - GPL
-- repo: nix_stable_24_11
-  srcname: dokuwiki
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: null
-  status: outdated
-  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
-  maintainers:
-    - b1000101@pm.me
-    - nixpkgs@e1mo.de
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_25_05
-  srcname: dokuwiki
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: null
-  status: outdated
-  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
-  maintainers:
-    - b1000101@pm.me
-    - nixpkgs@e1mo.de
-  licenses:
-    - GPL-2.0-only
 - repo: aur
   srcname: dokuwiki-git
   binname: dokuwiki-git
@@ -115,6 +105,21 @@
   status: outdated
   maintainers:
     - daniel@debian.org
+  categories:
+    - web
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: 2024-02-06b+dfsg-9
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - abe@debian.org
   categories:
     - web
 - repo: fedora_39
@@ -208,21 +213,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-selinux
-  visiblename: dokuwiki
-  version: 20250514b
-  origversion: 20250514b-4.fc44
-  status: incorrect
-  summary: Standards compliant simple to use wiki
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: dokuwiki
   binnames:
@@ -231,6 +221,21 @@
   visiblename: dokuwiki
   version: 20250514b
   origversion: 20250514b-9.fc44
+  status: incorrect
+  summary: Standards compliant simple to use wiki
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-selinux
+  visiblename: dokuwiki
+  version: 20250514b
+  origversion: 20250514b-4.fc44
   status: incorrect
   summary: Standards compliant simple to use wiki
   licenses:
@@ -420,6 +425,21 @@
     - GPLv2
   categories:
     - Networking/WWW
+- repo: raspbian_stable
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: 2024-02-06b+dfsg-9
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - abe@debian.org
+  categories:
+    - web
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: dokuwiki
@@ -439,8 +459,8 @@
   srcname: dokuwiki
   binname: dokuwiki
   visiblename: dokuwiki
-  version: "20260714"
-  origversion: 20260714-1
+  version: 20230404_a
+  origversion: 20230404_a-1
   status: incorrect
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
@@ -450,8 +470,8 @@
   srcname: dokuwiki
   binname: dokuwiki
   visiblename: dokuwiki
-  version: "20260714"
-  origversion: 20260714-1
+  version: 20230404_a
+  origversion: 20230404_a-1
   status: incorrect
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
@@ -479,6 +499,30 @@
     - nixpkgs@e1mo.de
   licenses:
     - GPL-2.0
+- repo: nix_stable_24_11
+  srcname: dokuwiki
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: null
+  status: outdated
+  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
+  maintainers:
+    - b1000101@pm.me
+    - nixpkgs@e1mo.de
+  licenses:
+    - GPL-2.0-only
+- repo: nix_stable_25_05
+  srcname: dokuwiki
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: null
+  status: outdated
+  summary: Simple to use and highly versatile Open Source wiki software that doesn't require a database
+  maintainers:
+    - b1000101@pm.me
+    - nixpkgs@e1mo.de
+  licenses:
+    - GPL-2.0-only
 - repo: nix_stable_26_05
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -527,7 +571,7 @@
   licenses:
     - GPL
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -542,7 +586,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -559,53 +603,9 @@
 - repo: pld
   srcname: dokuwiki
   visiblename: dokuwiki
-  version: 20230404a
-  origversion: 20230404a-1
+  version: 20260714c
+  origversion: 20260714c-1
   status: incorrect
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: 2024-02-06b+dfsg-9
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - abe@debian.org
-  categories:
-    - web
-- repo: raspbian_stable
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: 2024-02-06b+dfsg-9
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - abe@debian.org
-  categories:
-    - web
-- repo: raspbian_testing
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2026-07-14.c
-  origversion: 2026-07-14.c+dfsg-3
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - web
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: dokuwiki
@@ -786,6 +786,22 @@
   categories:
     - Applications/Internet
   vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20220731.a
+  origversion: 0.0.20220731.a-2
+  status: outdated
+  maintainers:
+    - team+dokuwiki@tracker.debian.org
+    - abe@debian.org
+    - gladk@debian.org
+  categories:
+    - web
+  vulnerable: true
 - repo: nix_stable_25_11
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -841,22 +857,6 @@
   maintainers:
     - tanguy+debian@ortolo.eu
     - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20220731.a
-  origversion: 0.0.20220731.a-2
-  status: outdated
-  maintainers:
-    - team+dokuwiki@tracker.debian.org
-    - abe@debian.org
-    - gladk@debian.org
   categories:
     - web
   vulnerable: true
