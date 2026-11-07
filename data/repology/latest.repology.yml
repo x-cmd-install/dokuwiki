@@ -1,4 +1,159 @@
-- repo: raspbian_testing
+- repo: pardus_21
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2.1
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - web
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - web
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2.1
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - web
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20220731.a
+  origversion: 0.0.20220731.a-2
+  status: outdated
+  maintainers:
+    - team+dokuwiki@tracker.debian.org
+    - abe@debian.org
+    - gladk@debian.org
+  categories:
+    - web
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20131208
+  origversion: 0.0.20131208-1
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - adn+deb@diwi.org
+    - tanguy@ortolo.eu
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20140929.d
+  origversion: 0.0.20140929.d-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - adn+deb@diwi.org
+    - tanguy@ortolo.eu
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20160626.a
+  origversion: 0.0.20160626.a-2
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - adn+deb@diwi.org
+    - tanguy@ortolo.eu
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2.1
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20220731.a
+  origversion: 0.0.20220731.a-2
+  status: outdated
+  maintainers:
+    - team+dokuwiki@tracker.debian.org
+    - abe@debian.org
+    - gladk@debian.org
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: kali_rolling
   subrepo: main
   srcname: dokuwiki
   binnames:
@@ -107,21 +262,6 @@
     - daniel@debian.org
   categories:
     - web
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: 2024-02-06b+dfsg-9
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - abe@debian.org
-  categories:
-    - web
 - repo: fedora_39
   subrepo: release
   srcname: dokuwiki
@@ -183,21 +323,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-selinux
-  visiblename: dokuwiki
-  version: 20250514b
-  origversion: 20250514b-7.fc43
-  status: incorrect
-  summary: Standards compliant simple to use wiki
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: dokuwiki
   binnames:
@@ -206,6 +331,21 @@
   visiblename: dokuwiki
   version: 20250514b
   origversion: 20250514b-1.fc43
+  status: incorrect
+  summary: Standards compliant simple to use wiki
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-selinux
+  visiblename: dokuwiki
+  version: 20250514b
+  origversion: 20250514b-7.fc43
   status: incorrect
   summary: Standards compliant simple to use wiki
   licenses:
@@ -330,20 +470,6 @@
     - GPL-2
   categories:
     - www-apps
-- repo: kali_rolling
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2026-07-14.c
-  origversion: 2026-07-14.c+dfsg-3
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - web
 - repo: liguros_stable
   srcname: www-apps/dokuwiki
   visiblename: www-apps/dokuwiki
@@ -383,6 +509,20 @@
     - GPL-2
   categories:
     - www-apps
+- repo: raspbian_testing
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2026-07-14.c
+  origversion: 2026-07-14.c+dfsg-3
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - web
 - repo: macports
   srcname: www/dokuwiki
   binname: dokuwiki
@@ -425,21 +565,6 @@
     - GPLv2
   categories:
     - Networking/WWW
-- repo: raspbian_stable
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: 2024-02-06b+dfsg-9
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - abe@debian.org
-  categories:
-    - web
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: dokuwiki
@@ -459,8 +584,8 @@
   srcname: dokuwiki
   binname: dokuwiki
   visiblename: dokuwiki
-  version: 20230404_a
-  origversion: 20230404_a-1
+  version: "20260714"
+  origversion: 20260714-1
   status: incorrect
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
@@ -470,8 +595,8 @@
   srcname: dokuwiki
   binname: dokuwiki
   visiblename: dokuwiki
-  version: 20230404_a
-  origversion: 20230404_a-1
+  version: 20260714_c
+  origversion: 20260714_c-1
   status: incorrect
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
@@ -571,7 +696,7 @@
   licenses:
     - GPL
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -586,7 +711,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -606,6 +731,36 @@
   version: 20260714c
   origversion: 20260714c-1
   status: incorrect
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: 2024-02-06b+dfsg-9
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - abe@debian.org
+  categories:
+    - web
+- repo: raspbian_stable
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: 2024-02-06b+dfsg-9
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - abe@debian.org
+  categories:
+    - web
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: dokuwiki
@@ -705,6 +860,20 @@
     - daniel@debian.org
   categories:
     - universe/web
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2026-07-14.a
+  origversion: 2026-07-14.a+dfsg-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - universe/web
 - repo: wikidata
   srcname: Q851864
   visiblename: DokuWiki
@@ -715,6 +884,21 @@
   licenses:
     - GNU General Public License
     - GNU General Public License, version 2.0
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2.1
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - web
+  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: dokuwiki
@@ -759,21 +943,6 @@
     - tanguy+debian@ortolo.eu
     - tanguy@ortolo.eu
   vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2.1
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
 - repo: epel_6
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -785,22 +954,6 @@
     - GPLv2
   categories:
     - Applications/Internet
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20220731.a
-  origversion: 0.0.20220731.a-2
-  status: outdated
-  maintainers:
-    - team+dokuwiki@tracker.debian.org
-    - abe@debian.org
-    - gladk@debian.org
-  categories:
-    - web
   vulnerable: true
 - repo: nix_stable_25_11
   srcname: dokuwiki
@@ -814,143 +967,4 @@
     - nixpkgs@e1mo.de
   licenses:
     - GPL-2.0-only
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2.1
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2.1
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20131208
-  origversion: 0.0.20131208-1
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - adn+deb@diwi.org
-    - tanguy@ortolo.eu
-  categories:
-    - universe/web
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20140929.d
-  origversion: 0.0.20140929.d-1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - adn+deb@diwi.org
-    - tanguy@ortolo.eu
-  categories:
-    - universe/web
-  vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20160626.a
-  origversion: 0.0.20160626.a-2
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - adn+deb@diwi.org
-    - tanguy@ortolo.eu
-  categories:
-    - universe/web
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - universe/web
-  vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2.1
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - universe/web
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20220731.a
-  origversion: 0.0.20220731.a-2
-  status: outdated
-  maintainers:
-    - team+dokuwiki@tracker.debian.org
-    - abe@debian.org
-    - gladk@debian.org
-  categories:
-    - universe/web
   vulnerable: true
