@@ -38,7 +38,7 @@ Total: **275,567** lines of code across **2506** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,738 · **Forks**: 924 · **Open issues**: 1,805 · **Contributors**: 599
+- **Stars**: 4,739 · **Forks**: 925 · **Open issues**: 1,805 · **Contributors**: 599
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **275,567** lines of code across **2506** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 8 | 1 | 7 | 0 |
-| last60d | 2026-09-08 | 0 | 6 | 18 | 3 | 12 | 6 |
-| 90d | 2026-08-09 | 2 | 14 | 25 | 9 | 17 | 30 |
-| last180d | 2026-05-11 | 4 | 61 | 26 | 33 | 26 | 214 |
-| 360d | 2025-11-12 | 4 | 109 | 27 | 52 | 32 | 457 |
-| last720d | 2024-11-17 | 7 | 202 | 31 | 122 | 42 | 765 |
+| 30d | 2026-10-09 | 0 | 0 | 8 | 1 | 7 | 0 |
+| last60d | 2026-09-09 | 0 | 5 | 18 | 2 | 12 | 4 |
+| 90d | 2026-08-10 | 2 | 14 | 24 | 8 | 17 | 20 |
+| last180d | 2026-05-12 | 4 | 58 | 26 | 32 | 26 | 196 |
+| 360d | 2025-11-13 | 4 | 109 | 27 | 51 | 32 | 456 |
+| last720d | 2024-11-18 | 7 | 202 | 31 | 121 | 42 | 765 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **275,567** lines of code across **2506** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **71** distros on [repology.org](https://repology.org/project/dokuwiki). **3** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
+Reported by **72** distros on [repology.org](https://repology.org/project/dokuwiki). **3** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:57:39Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:56:09Z._
