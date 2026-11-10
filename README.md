@@ -14,11 +14,11 @@ x install dokuwiki
 
 ## Code insight
 
-Total: **275,567** lines of code across **2506** files in the top 5 languages.
+Total: **275,576** lines of code across **2506** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Php | 260,577 | 93,104 | 29,800 | 2359 |
+| Php | 260,586 | 93,108 | 29,800 | 2359 |
 | JavaScript | 5,898 | 1,691 | 1,133 | 93 |
 | Css | 3,226 | 240 | 347 | 22 |
 | Less | 2,009 | 205 | 405 | 14 |
@@ -33,27 +33,27 @@ Total: **275,567** lines of code across **2506** files in the top 5 languages.
 ## Release
 
 - **Latest**: `release-2026-07-14c` (2026-09-02)
-- **Last commit**: 2026-09-29
+- **Last commit**: 2026-11-10
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 4,739 · **Forks**: 925 · **Open issues**: 1,805 · **Contributors**: 599
+- **Stars**: 4,739 · **Forks**: 925 · **Open issues**: 1,806 · **Contributors**: 600
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2188 · **Open PRs**: 98 · **Closed issues**: 1408 · **Open issues**: 397 · **Commits**: 13410
+- **Releases**: 12 · **Merged PRs**: 2195 · **Open PRs**: 90 · **Closed issues**: 1408 · **Open issues**: 398 · **Commits**: 13424
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 8 | 1 | 7 | 0 |
-| last60d | 2026-09-09 | 0 | 5 | 18 | 2 | 12 | 4 |
-| 90d | 2026-08-10 | 2 | 14 | 24 | 8 | 17 | 20 |
-| last180d | 2026-05-12 | 4 | 58 | 26 | 32 | 26 | 196 |
-| 360d | 2025-11-13 | 4 | 109 | 27 | 51 | 32 | 456 |
-| last720d | 2024-11-18 | 7 | 202 | 31 | 121 | 42 | 765 |
+| 30d | 2026-10-11 | 0 | 1 | 7 | 1 | 8 | 7 |
+| last60d | 2026-09-11 | 0 | 12 | 10 | 1 | 12 | 15 |
+| 90d | 2026-08-12 | 1 | 19 | 16 | 8 | 17 | 31 |
+| last180d | 2026-05-14 | 4 | 65 | 18 | 32 | 27 | 207 |
+| 360d | 2025-11-15 | 4 | 116 | 19 | 51 | 33 | 467 |
+| last720d | 2024-11-20 | 7 | 209 | 23 | 120 | 43 | 778 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **275,567** lines of code across **2506** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **72** distros on [repology.org](https://repology.org/project/dokuwiki). **3** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
+Reported by **71** distros on [repology.org](https://repology.org/project/dokuwiki). **3** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:56:09Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:27:44Z._
