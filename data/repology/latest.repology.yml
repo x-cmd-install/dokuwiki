@@ -1,3 +1,36 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: dokuwiki
+  binname: dokuwiki
+  visiblename: dokuwiki
+  version: "20260714"
+  origversion: 20260714-1
+  status: incorrect
+  summary: Simple to use and highly versatile Open Source wiki software
+  licenses:
+    - GPL
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: dokuwiki
+  binname: dokuwiki
+  visiblename: dokuwiki
+  version: 20260714_c
+  origversion: 20260714_c-1
+  status: incorrect
+  summary: Simple to use and highly versatile Open Source wiki software
+  licenses:
+    - GPL
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: dokuwiki
+  binname: dokuwiki
+  visiblename: dokuwiki
+  version: 20260714_c
+  origversion: 20260714_c-1
+  status: incorrect
+  summary: Simple to use and highly versatile Open Source wiki software
+  licenses:
+    - GPL
 - repo: arch
   subrepo: extra
   srcname: dokuwiki
@@ -410,39 +443,6 @@
     - GPLv2
   categories:
     - Networking/WWW
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: dokuwiki
-  binname: dokuwiki
-  visiblename: dokuwiki
-  version: "20260714"
-  origversion: 20260714-1
-  status: incorrect
-  summary: Simple to use and highly versatile Open Source wiki software
-  licenses:
-    - GPL
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: dokuwiki
-  binname: dokuwiki
-  visiblename: dokuwiki
-  version: 20260714_c
-  origversion: 20260714_c-1
-  status: incorrect
-  summary: Simple to use and highly versatile Open Source wiki software
-  licenses:
-    - GPL
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: dokuwiki
-  binname: dokuwiki
-  visiblename: dokuwiki
-  version: 20260714_c
-  origversion: 20260714_c-1
-  status: incorrect
-  summary: Simple to use and highly versatile Open Source wiki software
-  licenses:
-    - GPL
 - repo: nix_stable_24_05
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -527,7 +527,7 @@
   licenses:
     - GPL
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -542,7 +542,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -729,21 +729,6 @@
   licenses:
     - GNU General Public License
     - GNU General Public License, version 2.0
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: dokuwiki
@@ -803,33 +788,6 @@
   categories:
     - web
   vulnerable: true
-- repo: epel_6
-  srcname: dokuwiki
-  visiblename: dokuwiki
-  version: "0"
-  origversion: 0-0.24.20140929c.el6
-  status: outdated
-  summary: Standards compliant simple to use wiki
-  licenses:
-    - GPLv2
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20180422.a
-  origversion: 0.0.20180422.a-2.1
-  status: outdated
-  maintainers:
-    - tanguy+debian@ortolo.eu
-    - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
 - repo: nix_stable_25_11
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -845,6 +803,36 @@
   vulnerable: true
 - repo: pardus_21
   subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2.1
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - web
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20180422.a
+  origversion: 0.0.20180422.a-2
+  status: outdated
+  maintainers:
+    - tanguy+debian@ortolo.eu
+    - tanguy@ortolo.eu
+  categories:
+    - web
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
