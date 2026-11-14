@@ -42,18 +42,18 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2200 · **Open PRs**: 83 · **Closed issues**: 1412 · **Open issues**: 396 · **Commits**: 13442
+- **Releases**: 12 · **Merged PRs**: 2200 · **Open PRs**: 83 · **Closed issues**: 1413 · **Open issues**: 395 · **Commits**: 13442
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 2 | 7 | 4 | 7 | 21 |
-| last60d | 2026-09-14 | 0 | 15 | 8 | 4 | 10 | 31 |
-| 90d | 2026-08-15 | 1 | 24 | 9 | 11 | 15 | 48 |
-| last180d | 2026-05-17 | 4 | 70 | 11 | 36 | 25 | 225 |
-| 360d | 2025-11-18 | 4 | 120 | 12 | 54 | 31 | 485 |
-| last720d | 2024-11-23 | 7 | 210 | 16 | 123 | 41 | 792 |
+| 30d | 2026-10-15 | 0 | 2 | 6 | 5 | 6 | 21 |
+| last60d | 2026-09-15 | 0 | 14 | 8 | 5 | 9 | 31 |
+| 90d | 2026-08-16 | 1 | 21 | 9 | 12 | 14 | 48 |
+| last180d | 2026-05-18 | 4 | 70 | 11 | 37 | 24 | 225 |
+| 360d | 2025-11-19 | 4 | 120 | 12 | 55 | 30 | 485 |
+| last720d | 2024-11-24 | 7 | 210 | 16 | 124 | 40 | 791 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T08:06:50Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T08:05:52Z._
