@@ -1,36 +1,67 @@
-- repo: manjaro_stable
-  subrepo: extra
+- repo: raspbian_stable
+  subrepo: main
   srcname: dokuwiki
-  binname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
   visiblename: dokuwiki
-  version: "20260714"
-  origversion: 20260714-1
-  status: incorrect
-  summary: Simple to use and highly versatile Open Source wiki software
-  licenses:
-    - GPL
-- repo: manjaro_testing
-  subrepo: extra
+  version: 2024-02-06b
+  origversion: 2024-02-06b+dfsg-9
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - abe@debian.org
+  categories:
+    - web
+- repo: raspbian_testing
+  subrepo: main
   srcname: dokuwiki
-  binname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
   visiblename: dokuwiki
-  version: 20260714_c
-  origversion: 20260714_c-1
-  status: incorrect
-  summary: Simple to use and highly versatile Open Source wiki software
-  licenses:
-    - GPL
-- repo: manjaro_unstable
-  subrepo: extra
+  version: 2026-07-14.c
+  origversion: 2026-07-14.c+dfsg-3
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - web
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: dokuwiki
-  binname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
   visiblename: dokuwiki
-  version: 20260714_c
-  origversion: 20260714_c-1
+  version: 2026-07-14.c
+  origversion: 2026-07-14.c+dfsg-3
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - web
+- repo: pld
+  srcname: dokuwiki
+  visiblename: dokuwiki
+  version: 20260714c
+  origversion: 20260714c-1
   status: incorrect
-  summary: Simple to use and highly versatile Open Source wiki software
-  licenses:
-    - GPL
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2024-02-06b
+  origversion: 2024-02-06b+dfsg-9
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - abe@debian.org
+  categories:
+    - web
 - repo: arch
   subrepo: extra
   srcname: dokuwiki
@@ -112,20 +143,6 @@
     - abe@debian.org
   categories:
     - web
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2026-07-14.c
-  origversion: 2026-07-14.c+dfsg-3
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - web
 - repo: fedora_39
   subrepo: release
   srcname: dokuwiki
@@ -187,21 +204,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-selinux
-  visiblename: dokuwiki
-  version: 20250514b
-  origversion: 20250514b-7.fc43
-  status: incorrect
-  summary: Standards compliant simple to use wiki
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: dokuwiki
   binnames:
@@ -210,6 +212,21 @@
   visiblename: dokuwiki
   version: 20250514b
   origversion: 20250514b-1.fc43
+  status: incorrect
+  summary: Standards compliant simple to use wiki
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-selinux
+  visiblename: dokuwiki
+  version: 20250514b
+  origversion: 20250514b-7.fc43
   status: incorrect
   summary: Standards compliant simple to use wiki
   licenses:
@@ -240,6 +257,21 @@
   visiblename: dokuwiki
   version: 20250514b
   origversion: 20250514b-9.fc44
+  status: incorrect
+  summary: Standards compliant simple to use wiki
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-selinux
+  visiblename: dokuwiki
+  version: 20260714c
+  origversion: 20260714c-1.fc45
   status: incorrect
   summary: Standards compliant simple to use wiki
   licenses:
@@ -401,20 +433,6 @@
     - GPL-2
   categories:
     - www
-- repo: mageia_9
-  subrepo: core/release
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: "20220731"
-  origversion: 20220731-1.mga9
-  status: incorrect
-  summary: A wiki with plain text files backend
-  licenses:
-    - GPLv2
-  categories:
-    - Networking/WWW
 - repo: mageia_10
   subrepo: core/release
   srcname: dokuwiki
@@ -443,6 +461,39 @@
     - GPLv2
   categories:
     - Networking/WWW
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: dokuwiki
+  binname: dokuwiki
+  visiblename: dokuwiki
+  version: "20260714"
+  origversion: 20260714-1
+  status: incorrect
+  summary: Simple to use and highly versatile Open Source wiki software
+  licenses:
+    - GPL
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: dokuwiki
+  binname: dokuwiki
+  visiblename: dokuwiki
+  version: 20260714_c
+  origversion: 20260714_c-1
+  status: incorrect
+  summary: Simple to use and highly versatile Open Source wiki software
+  licenses:
+    - GPL
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: dokuwiki
+  binname: dokuwiki
+  visiblename: dokuwiki
+  version: 20260714_c
+  origversion: 20260714_c-1
+  status: incorrect
+  summary: Simple to use and highly versatile Open Source wiki software
+  licenses:
+    - GPL
 - repo: nix_stable_24_05
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -527,21 +578,6 @@
   licenses:
     - GPL
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: 2024-02-06b+dfsg-9
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - abe@debian.org
-  categories:
-    - web
-- repo: parrot
   subrepo: parrot/main
   srcname: dokuwiki
   binnames:
@@ -556,14 +592,8 @@
     - abe@debian.org
   categories:
     - web
-- repo: pld
-  srcname: dokuwiki
-  visiblename: dokuwiki
-  version: 20260714c
-  origversion: 20260714c-1
-  status: incorrect
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -575,35 +605,6 @@
   maintainers:
     - daniel@debian.org
     - abe@debian.org
-  categories:
-    - web
-- repo: raspbian_stable
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2024-02-06b
-  origversion: 2024-02-06b+dfsg-9
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - abe@debian.org
-  categories:
-    - web
-- repo: raspbian_testing
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2026-07-14.c
-  origversion: 2026-07-14.c+dfsg-3
-  status: outdated
-  maintainers:
-    - daniel@debian.org
   categories:
     - web
 - repo: rosa_2019_1
@@ -788,6 +789,22 @@
   categories:
     - web
   vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+  visiblename: dokuwiki
+  version: 0.0.20220731.a
+  origversion: 0.0.20220731.a-2
+  status: outdated
+  maintainers:
+    - team+dokuwiki@tracker.debian.org
+    - abe@debian.org
+    - gladk@debian.org
+  categories:
+    - web
+  vulnerable: true
 - repo: nix_stable_25_11
   srcname: dokuwiki
   visiblename: dokuwiki
@@ -843,22 +860,6 @@
   maintainers:
     - tanguy+debian@ortolo.eu
     - tanguy@ortolo.eu
-  categories:
-    - web
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-  visiblename: dokuwiki
-  version: 0.0.20220731.a
-  origversion: 0.0.20220731.a-2
-  status: outdated
-  maintainers:
-    - team+dokuwiki@tracker.debian.org
-    - abe@debian.org
-    - gladk@debian.org
   categories:
     - web
   vulnerable: true
