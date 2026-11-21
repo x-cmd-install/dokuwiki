@@ -38,7 +38,7 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,743 · **Forks**: 926 · **Open issues**: 1,809 · **Contributors**: 602
+- **Stars**: 4,743 · **Forks**: 925 · **Open issues**: 1,809 · **Contributors**: 602
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 2 | 9 | 5 | 4 | 21 |
-| last60d | 2026-09-21 | 0 | 13 | 11 | 6 | 6 | 30 |
-| 90d | 2026-08-22 | 1 | 18 | 12 | 13 | 13 | 44 |
-| last180d | 2026-05-24 | 4 | 69 | 14 | 38 | 24 | 224 |
-| 360d | 2025-11-25 | 4 | 120 | 15 | 56 | 30 | 481 |
-| last720d | 2024-11-30 | 7 | 205 | 19 | 123 | 40 | 770 |
+| 30d | 2026-10-22 | 0 | 2 | 8 | 5 | 3 | 21 |
+| last60d | 2026-09-22 | 0 | 12 | 11 | 6 | 6 | 30 |
+| 90d | 2026-08-23 | 1 | 18 | 12 | 13 | 13 | 44 |
+| last180d | 2026-05-25 | 4 | 69 | 13 | 38 | 24 | 224 |
+| 360d | 2025-11-26 | 4 | 118 | 15 | 56 | 30 | 481 |
+| last720d | 2024-12-01 | 7 | 205 | 19 | 123 | 40 | 770 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **70** distros on [repology.org](https://repology.org/project/dokuwiki). **3** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
+Reported by **69** distros on [repology.org](https://repology.org/project/dokuwiki). **3** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:58:20Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:04:55Z._
