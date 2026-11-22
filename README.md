@@ -38,7 +38,7 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,743 · **Forks**: 925 · **Open issues**: 1,809 · **Contributors**: 602
+- **Stars**: 4,745 · **Forks**: 924 · **Open issues**: 1,809 · **Contributors**: 602
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 2 | 8 | 5 | 3 | 21 |
-| last60d | 2026-09-22 | 0 | 12 | 11 | 6 | 6 | 30 |
-| 90d | 2026-08-23 | 1 | 18 | 12 | 13 | 13 | 44 |
-| last180d | 2026-05-25 | 4 | 69 | 13 | 38 | 24 | 224 |
-| 360d | 2025-11-26 | 4 | 118 | 15 | 56 | 30 | 481 |
-| last720d | 2024-12-01 | 7 | 205 | 19 | 123 | 40 | 770 |
+| 30d | 2026-10-23 | 0 | 2 | 8 | 5 | 3 | 21 |
+| last60d | 2026-09-23 | 0 | 12 | 11 | 6 | 6 | 27 |
+| 90d | 2026-08-24 | 1 | 18 | 12 | 13 | 13 | 38 |
+| last180d | 2026-05-26 | 4 | 69 | 13 | 38 | 24 | 217 |
+| 360d | 2025-11-27 | 4 | 117 | 15 | 55 | 30 | 465 |
+| last720d | 2024-12-02 | 7 | 204 | 19 | 123 | 40 | 770 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:04:55Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:32:07Z._
