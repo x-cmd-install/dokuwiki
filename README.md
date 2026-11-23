@@ -14,11 +14,11 @@ x install dokuwiki
 
 ## Code insight
 
-Total: **275,729** lines of code across **2507** files in the top 5 languages.
+Total: **275,730** lines of code across **2507** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Php | 260,736 | 93,175 | 29,822 | 2360 |
+| Php | 260,737 | 93,178 | 29,822 | 2360 |
 | JavaScript | 5,898 | 1,691 | 1,133 | 93 |
 | Css | 3,229 | 241 | 348 | 22 |
 | Less | 2,009 | 205 | 405 | 14 |
@@ -33,27 +33,27 @@ Total: **275,729** lines of code across **2507** files in the top 5 languages.
 ## Release
 
 - **Latest**: `release-2026-07-14c` (2026-09-02)
-- **Last commit**: 2026-11-11
+- **Last commit**: 2026-11-23
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 4,745 · **Forks**: 924 · **Open issues**: 1,809 · **Contributors**: 602
+- **Stars**: 4,745 · **Forks**: 924 · **Open issues**: 1,809 · **Contributors**: 603
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 2200 · **Open PRs**: 86 · **Closed issues**: 1415 · **Open issues**: 394 · **Commits**: 13442
+- **Releases**: 12 · **Merged PRs**: 2202 · **Open PRs**: 85 · **Closed issues**: 1415 · **Open issues**: 394 · **Commits**: 13446
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 2 | 8 | 5 | 3 | 21 |
-| last60d | 2026-09-23 | 0 | 12 | 11 | 6 | 6 | 27 |
-| 90d | 2026-08-24 | 1 | 18 | 12 | 13 | 13 | 38 |
-| last180d | 2026-05-26 | 4 | 69 | 13 | 38 | 24 | 217 |
-| 360d | 2025-11-27 | 4 | 117 | 15 | 55 | 30 | 465 |
-| last720d | 2024-12-02 | 7 | 204 | 19 | 123 | 40 | 770 |
+| 30d | 2026-10-24 | 0 | 4 | 7 | 5 | 3 | 25 |
+| last60d | 2026-09-24 | 0 | 14 | 10 | 6 | 6 | 31 |
+| 90d | 2026-08-25 | 1 | 20 | 11 | 13 | 12 | 42 |
+| last180d | 2026-05-27 | 4 | 70 | 12 | 38 | 24 | 221 |
+| 360d | 2025-11-28 | 4 | 119 | 14 | 54 | 30 | 469 |
+| last720d | 2024-12-03 | 7 | 206 | 18 | 122 | 40 | 763 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for dokuwiki lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T08:32:07Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T09:45:11Z._
