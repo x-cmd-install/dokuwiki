@@ -1,3 +1,17 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: dokuwiki
+  binnames:
+    - dokuwiki
+    - dokuwiki-farm
+  visiblename: dokuwiki
+  version: 2026-07-14.c
+  origversion: 2026-07-14.c+dfsg-3
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - web
 - repo: arch
   subrepo: extra
   srcname: dokuwiki
@@ -316,20 +330,6 @@
     - GPL-2
   categories:
     - www-apps
-- repo: kali_rolling
-  subrepo: main
-  srcname: dokuwiki
-  binnames:
-    - dokuwiki
-    - dokuwiki-farm
-  visiblename: dokuwiki
-  version: 2026-07-14.c
-  origversion: 2026-07-14.c+dfsg-3
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - web
 - repo: liguros_stable
   srcname: www-apps/dokuwiki
   visiblename: www-apps/dokuwiki
@@ -416,8 +416,8 @@
   srcname: dokuwiki
   binname: dokuwiki
   visiblename: dokuwiki
-  version: "20260714"
-  origversion: 20260714-1
+  version: 20260714_c
+  origversion: 20260714_c-1
   status: incorrect
   summary: Simple to use and highly versatile Open Source wiki software
   licenses:
@@ -528,7 +528,7 @@
   licenses:
     - GPL
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
@@ -543,7 +543,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: dokuwiki
   binnames:
     - dokuwiki
