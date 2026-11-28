@@ -38,7 +38,7 @@ x install dokuwiki
 
 ## 流行度
 
-- **Star**: 4,749 · **Fork**: 924 · **开放 issue**: 1,810 · **贡献者**: 603
+- **Star**: 4,750 · **Fork**: 923 · **开放 issue**: 1,810 · **贡献者**: 603
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install dokuwiki
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 4 | 11 | 5 | 3 | 26 |
-| last60d | 2026-09-28 | 0 | 13 | 14 | 7 | 6 | 32 |
-| 90d | 2026-08-29 | 1 | 20 | 15 | 14 | 12 | 43 |
-| last180d | 2026-05-31 | 4 | 67 | 16 | 37 | 24 | 222 |
-| 360d | 2025-12-02 | 4 | 118 | 18 | 54 | 30 | 470 |
-| last720d | 2024-12-07 | 7 | 206 | 22 | 123 | 40 | 733 |
+| 30d | 2026-10-29 | 0 | 4 | 11 | 5 | 3 | 26 |
+| last60d | 2026-09-29 | 0 | 12 | 14 | 7 | 6 | 32 |
+| 90d | 2026-08-30 | 1 | 20 | 14 | 14 | 12 | 43 |
+| last180d | 2026-06-01 | 4 | 67 | 16 | 37 | 24 | 222 |
+| 360d | 2025-12-03 | 4 | 117 | 18 | 54 | 30 | 470 |
+| last720d | 2024-12-08 | 7 | 206 | 22 | 123 | 40 | 733 |
 
 ## Release 资产
 
@@ -61,6 +61,21 @@ x install dokuwiki
 |------|-----:|----------|
 | [dokuwiki-2026-07-14c.tgz](https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.tgz) | 4.0 MiB | `native/unknown` |
 | [dokuwiki-2026-07-14c.zip](https://github.com/dokuwiki/dokuwiki/releases/download/release-2026-07-14c/dokuwiki-2026-07-14c.zip) | 6.1 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/dokuwiki) 上共有 **68** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**34** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2026-07-14.c` | ⚠️ outdated |
+| Debian 14 | `2026-07-14.c` | ⚠️ outdated |
+| Debian 13 | `2024-02-06b` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2025-05-14.b` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.0.20220731.a` | ⚠️ outdated |
+| Arch | `20260714_c` | incorrect |
+| Fedora rawhide | `20260714c` | incorrect |
+| Nix unstable | `2026-07-14c` | ✅ latest |
 
 ## 改进这些数据
 
@@ -71,4 +86,4 @@ dokuwiki 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:16:05Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:08:35Z._
